@@ -66,6 +66,11 @@ $gf-form-margin: 0.25rem;
   }
 }
 
+.gf-form-empty-label {
+  padding: $input-padding-y $input-padding-x;
+  margin-right: $gf-form-margin;
+}
+
 .gf-form-checkbox {
   flex-shrink: 0;
   padding: $input-padding-y $input-padding-x;
@@ -77,6 +82,10 @@ $gf-form-margin: 0.25rem;
     padding: $input-padding-y 0.4rem;
     line-height: $input-line-height;
   }
+}
+
+.gf-form-textarea {
+  max-width: 650px;
 }
 
 .gf-form-input {
